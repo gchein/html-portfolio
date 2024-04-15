@@ -1,0 +1,92 @@
+body {
+    font-family: Grotesk;
+    background-color: #B1AF83;
+    color: #283618;
+    padding: 25px;
+    text-align: center
+  }
+  
+  p {
+    font-weight: 500;
+    font-size: 17px;
+    padding: 10px;
+  }
+  h1 {
+    font-family: Mono;
+    color: #18404e
+  }
+  
+  h2 {
+    font-family: Mono;
+    color: #2c748c
+  }
+  
+  h3 {
+    font-family: Mono;
+    color: #c09a85;
+    padding: 10px
+  }
+  
+  #profile-pic {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid rgba(100,100,100,0.3);
+  }
+  
+  .main-link {
+    padding: 15px;
+    background-color: #18404e;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  
+  .main-link-text {
+    color: white;
+    font-weight: 100;
+    font-size: 100%;
+    font-family: Grotesk, sans-serif;
+  }
+  
+  .main-link-text:hover {
+    color: #9dbebb
+  }
+  
+  .card {
+    background-color: #E7E6DA;
+    border-radius: 5px;
+    width: 600px;
+    padding: 10px;
+    margin: 25px auto;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0 5px 5px #96a37a;
+    text-align: center
+  }
+  
+  .social-links {
+  margin: 0px 20%
+  }
+  
+  
+  ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #514e36;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease;
+  }
+  
+  a:hover {
+    color: #A33A01
+  }
